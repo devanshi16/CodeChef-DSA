@@ -15,11 +15,8 @@ for _ in range(q):
     query = list(map(int,input().split()))
     if query[0] == 1:
         arr[query[1]] = query[2]
-        print(arr)
         S = subarray(arr)
-        print(S)
     elif query[0] == 2:
         a = S[query[1]-1]
-        print(a)
-        print(S.index(a))
+        print(S.index(a)+1)
     
