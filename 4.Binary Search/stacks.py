@@ -9,7 +9,6 @@ def binary_search(ARR,X):
             last = mid-1
         else:
             first = mid+1
-            
     return k
 for _ in range(int(input())):
         l = int(input())
@@ -21,4 +20,4 @@ for _ in range(int(input())):
                 stack.append(i)
             else:
                 stack[min_val] = i
-            print(stack)
+        print(len(stack),stack)
